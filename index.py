@@ -6,7 +6,7 @@ from PIL import Image
 from pytesseract import pytesseract
 from pdf2image import convert_from_path
 
-openai.api_key = "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"
+openai.api_key = "APIKEY"
 
 gpt_prompt_stem = "Summarize this paragraph:\n\n"
 
